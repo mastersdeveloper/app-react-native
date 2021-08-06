@@ -1,0 +1,48 @@
+
+Instalaciones de Complementos:
+
+    - Bracket Pair Colorizer 2
+    - Monokai Night Theme
+    - Iconos (Material Icon Theme)
+    - ES7 React/Redux/GraphQL/React-Native snippets
+    - Simple React Snippets
+    - Auto Close Tag
+    - Paste JSON as Code
+    - TypeScript Importer
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+- Porque TypeScript => 
+        * Tipado Estricto
+        * Mutacion controlada (cuando un valor pasa de un tipo a otro)
+        * Documentacion automatica de funciones, argumentos y metodos
+        * Ayuda enormemente cuando se trabaja en equipo
+
+        * Problemas comunes: 
+            + No se que tipo de dato poner
+            + No se que argumento recibo
+            + El objeto que se recibe se extiende de otro
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+React Native:
+
+- Creando un proyecto con typescript: 
+
+                npx create-react-app my-app --template typescript
+                * my-app: nombre que le deseas dar a tu aplicacion
+                
+- Corriendo la aplicacion:
+
+                npm start
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Atajos:
+
+- rafc => para crear una base en react 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Hook => funcion en javascript que permite crear/acceder al estado y a los ciclo de vida de React
+    
