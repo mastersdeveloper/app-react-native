@@ -45,4 +45,55 @@ Atajos:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Hook => funcion en javascript que permite crear/acceder al estado y a los ciclo de vida de React
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+* Diferencia entre Expo CLI VS React Native:
+
+    CLI => Command Line Interface
+
+
+    Expo CLI => Ventajas
+                - Se encarga de controlar los builds para IOS y Android
+                - Provee muchas funcionalidades nativas incluidas
+                - Es excelente para alguien que empieza el desarrollo movil
+                - Permite correr y probar la aplicacion en IOS aunque no dispongas de una Mac
+
+                * Expo Eject: Te permite acceder para escribir codigo en la plataforma cual sea.
+                              Se usa en caso de un modulo nativo no sea soportado por Expo SDK.
+                              No usar cuando se desea distribuir en las Apps Stores.
+                              No usar cuando estas inconforme con el codigo nativo.
+                              No usar cuando disfrutas de las actualizaciones que vienen con Expo.
+                              No usar si usas Expo Push Notificaction services.
+                              No usar si dependes de la comunidad de expo.
+
+                Desventajas
+                - No puede extender una funcionalidad nativa no soportada por expo.
     
+    React Native CLI => Ventajas
+                        - Genera un proyecto con lo minimo necesario para correr
+                        - Generar los proyectos nativos para IOS y Android de forma independiente
+                        - Te permite escribir codigo nativo por plataforma (en caso de ser necesario)
+
+                        Desventajas
+                        - Necesitas los ambientes de desarrollo por separado, Android Studio y Xcode.
+
+    * Comunes ambos
+      - La mayoria de los paquetes soportan ambos ambientes con instalaciones independientes
+      - Cambios en caliente
+      - Desarrollar y ver cambios en desarrollo en dispositivos fisicos
+      - Utilizar el conocimiento que tienes de React en React Native
+      - Desplegar en las AppStore
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Instalaciones y Configuraciones de React Native - Windows
+
+1- Seguir el manual de instalacion: https://reactnative.dev/docs/environment-setup
+
+2- Comando para la creacion del proyecto: npx react-native init AwesomeTSProject --template react-native-template-typescript
+
+3- Corremos la aplicacion con el siguiente comando: npx react-native run-android
+
+-----------------------------------------------------------------------------------------------------------------------------
+
