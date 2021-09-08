@@ -97,3 +97,10 @@ Instalaciones y Configuraciones de React Native - Windows
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+                Box Object Model: alto, ancho, margen, padding, borde
+                        |
+                        |
+                    Position: absoluta, relativa, top, left, right, bottom
+                        |
+                        |
+                    Flex Box: direccion, ubicacion, alineamiento, estirar, encoger, proporciones 
