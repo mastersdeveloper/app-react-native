@@ -104,3 +104,17 @@ Instalaciones y Configuraciones de React Native - Windows
                         |
                         |
                     Flex Box: direccion, ubicacion, alineamiento, estirar, encoger, proporciones 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Navegacion:
+
+    https://reactnavigation.org/docs/getting-started
+
+    Stack Navigation => el screen anterior se mantiene activo atras cuando se llama a un scrren 
+
+    Drawer Navigation
+
+    BottomTab Navigation
+
+    MaterialTop Navigation
