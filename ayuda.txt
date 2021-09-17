@@ -113,7 +113,7 @@ Navegacion:
 
     Stack Navigation => el screen anterior se mantiene activo atras cuando se llama a un scrren 
 
-    Drawer Navigation
+    Drawer Navigationv => el Drawer tiene que saber como luce las pantallas que va a navegar
 
     BottomTab Navigation
 
